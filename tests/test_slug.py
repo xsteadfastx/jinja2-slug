@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import pytest
 
 
@@ -10,7 +12,7 @@ def environment():
 
 
 @pytest.mark.parametrize('input,expected', [
-    ('Motörhead Gang', 'motorhead-gang'),
+    (u'Motörhead Gang', 'motorhead-gang'),
     ('This is a Test', 'this-is-a-test')
 ])
 def test_slug(input, expected, environment):
