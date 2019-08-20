@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jinja2-slug"
-version = "0.0.2"
+version = "0.2.0"
 description = "Jinja2 Extension for creating slugs"
 authors = ["Marvin Steadfast <marvin@xsteadfastx.org>"]
 license = "MIT"
