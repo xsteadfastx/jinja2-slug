@@ -8,5 +8,5 @@ def slug(value):
 
 class SlugExtension(Extension):
     def __init__(self, environment):
-        super(SlugExtension, self).__init__(environment)
-        environment.filters['slug'] = slug
+        super().__init__(environment)
+        environment.filters["slug"] = slug
