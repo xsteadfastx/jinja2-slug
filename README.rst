@@ -2,7 +2,12 @@
 Jinja2 Slug
 ===========
 
-Jinja2 Extenson for creating slugs. It can be used to create URLs. It uses the `unicode-slugify`_ module.
+.. image:: https://github.com/xsteadfastx/jinja2-slug/actions/workflows/ci.yml/badge.svg?branch=master
+   :target: https://github.com/xsteadfastx/jinja2-slug/actions/workflows/ci.yml
+   :alt: CI
+
+
+Jinja2 Extension for creating slugs. It can be used to create URLs. It uses the `unicode-slugify`_ module.
 
 .. _`unicode-slugify`: https://github.com/mozilla/unicode-slugify
 
