@@ -4,6 +4,9 @@ version = "0.2.0"
 description = "Jinja2 Extension for creating slugs"
 authors = ["Marvin Steadfast <marvin@xsteadfastx.org>"]
 license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/xsteadfastx/jinja2-slug"
+repository = "https://github.com/xsteadfastx/jinja2-slug"
 
 [tool.poetry.dependencies]
 python = "^3.7"
